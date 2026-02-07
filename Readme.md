@@ -92,14 +92,3 @@ Lint with Flake8:
 ```bash
 poetry run flake8 src/
 ```
-
-### Testing
-
-Run tests:
-```bash
-poetry run pytest
-```
-
-## License
-
-MIT License
