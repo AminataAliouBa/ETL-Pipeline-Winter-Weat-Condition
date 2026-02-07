@@ -1,0 +1,13 @@
+{
+    "qs_url": "https://quickstats.nass.usda.gov/api/api_GET/",
+    "qswwc_params": {
+        "state_name": "SOUTH DAKOTA",
+        "commodity_desc": "WHEAT",
+        "class_desc": "WINTER",
+        "statisticcat_desc": "CONDITION",
+        "sector_desc": "CROPS",
+        "format": "csv"
+    },
+    "start_year_for_pagination": 1985,
+    "end_year_for_pagination": 2014
+}

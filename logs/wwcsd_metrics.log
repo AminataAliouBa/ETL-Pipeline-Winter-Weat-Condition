@@ -1,0 +1,59 @@
+2026-02-07 09:33:23,593 - INFO - Loading config parameters...
+2026-02-07 09:33:23,594 - INFO - Running ETL & Analytics Pipeline
+2026-02-07 09:33:23,594 - INFO - Extracting Data...
+2026-02-07 09:34:09,813 - WARNING - HTTP error, for year 1985 : 400, Bad Request
+2026-02-07 09:34:11,151 - WARNING - HTTP error, for year 1984 : 400, Bad Request
+2026-02-07 09:34:12,704 - WARNING - HTTP error, for year 1983 : 400, Bad Request
+2026-02-07 09:34:14,264 - WARNING - HTTP error, for year 1982 : 400, Bad Request
+2026-02-07 09:34:15,617 - WARNING - HTTP error, for year 1981 : 400, Bad Request
+2026-02-07 09:34:16,973 - WARNING - HTTP error, for year 1980 : 400, Bad Request
+2026-02-07 09:34:17,016 - INFO - Transforming Data...
+2026-02-07 09:34:17,017 - INFO - Preprocessing...
+2026-02-07 09:34:17,018 - INFO - Avant Nettoyage :
+2026-02-07 09:34:17,018 - INFO - Nombre de lignes : 2612
+2026-02-07 09:34:17,018 - INFO - Nombre de colonnes : 39
+2026-02-07 09:34:17,022 - INFO - Colonnes complètement nulles : ['asd_code', 'asd_desc', 'county_ansi', 'county_code', 'county_name', 'region_desc', 'zip_5', 'watershed_desc', 'congr_district_code', 'CV (%)']
+2026-02-07 09:34:17,035 - INFO - Nombre de doublons : 0
+2026-02-07 09:34:17,035 - INFO - Cleaning...
+2026-02-07 09:34:17,057 - INFO - Après Nettoyage :
+2026-02-07 09:34:17,057 - INFO - Nombre de lignes : 2607
+2026-02-07 09:34:17,058 - INFO - Nombre de colonnes : 4
+2026-02-07 09:34:17,058 - INFO - Computing series...
+2026-02-07 09:34:17,086 - INFO - Loading Cleaned Data...
+2026-02-07 09:34:17,095 - INFO - Analizing Data...
+2026-02-07 09:34:19,485 - INFO - ----- METRICS -----
+2026-02-07 09:34:19,485 - INFO - MEAN : 354.0
+2026-02-07 09:34:19,486 - INFO - Standart-deviation : 52.0
+2026-02-07 09:34:19,486 - INFO - Min : 181.0
+2026-02-07 09:34:19,486 - INFO - Max : 450.0
+2026-02-07 09:34:19,486 - INFO - Last Value : 389.0
+2026-02-07 09:34:19,486 - INFO - Relative deviation : Last_value vs Mean : 9.9%
+2026-02-07 09:34:19,486 - INFO - Last value percentile: 74%
+2026-02-07 09:34:19,486 - INFO - Pipeline Successfully Done!!!
+2026-02-07 09:35:41,299 - INFO - Loading config parameters...
+2026-02-07 09:35:41,301 - INFO - Running ETL & Analytics Pipeline
+2026-02-07 09:35:41,301 - INFO - Extracting Data...
+2026-02-07 09:35:54,492 - WARNING - HTTP error, for year 1985 : 400, Bad Request
+2026-02-07 09:35:54,532 - INFO - Transforming Data...
+2026-02-07 09:35:54,533 - INFO - Preprocessing...
+2026-02-07 09:35:54,533 - INFO - Avant Nettoyage :
+2026-02-07 09:35:54,533 - INFO - Nombre de lignes : 2612
+2026-02-07 09:35:54,533 - INFO - Nombre de colonnes : 39
+2026-02-07 09:35:54,535 - INFO - Colonnes complètement nulles : ['asd_code', 'asd_desc', 'county_ansi', 'county_code', 'county_name', 'region_desc', 'zip_5', 'watershed_desc', 'congr_district_code', 'CV (%)']
+2026-02-07 09:35:54,543 - INFO - Nombre de doublons : 0
+2026-02-07 09:35:54,543 - INFO - Cleaning...
+2026-02-07 09:35:54,558 - INFO - Après Nettoyage :
+2026-02-07 09:35:54,558 - INFO - Nombre de lignes : 2607
+2026-02-07 09:35:54,558 - INFO - Nombre de colonnes : 4
+2026-02-07 09:35:54,558 - INFO - Computing series...
+2026-02-07 09:35:54,570 - INFO - Loading Cleaned Data...
+2026-02-07 09:35:54,578 - INFO - Analizing Data...
+2026-02-07 09:35:56,639 - INFO - ----- METRICS -----
+2026-02-07 09:35:56,639 - INFO - MEAN : 354.0
+2026-02-07 09:35:56,639 - INFO - Standart-deviation : 52.0
+2026-02-07 09:35:56,639 - INFO - Min : 181.0
+2026-02-07 09:35:56,639 - INFO - Max : 450.0
+2026-02-07 09:35:56,639 - INFO - Last Value : 389.0
+2026-02-07 09:35:56,640 - INFO - Relative deviation : Last_value vs Mean : 9.9%
+2026-02-07 09:35:56,640 - INFO - Last value percentile: 74%
+2026-02-07 09:35:56,640 - INFO - Pipeline Successfully Done!!!
